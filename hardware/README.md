@@ -18,3 +18,7 @@ the USB, whereas an additional converter will be necessary for the -5 V supply.
 The required components need to be precisely selected. In case the component
 selection phase is done, a component list needs to be created and submitted to
 the instructors.
+
+## Comments
+
+Use of analog POTIs or SPI POTIs possible.
