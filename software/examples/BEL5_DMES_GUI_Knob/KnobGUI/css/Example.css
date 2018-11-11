@@ -1,0 +1,29 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/*
+    Document   : controlStyle1
+*/
+
+.bordered-titled-title {
+  -fx-background-color: -fx-background;
+  -fx-translate-y: -12; /* play around with this value when changing the title font to get a vertically centered title */
+}
+
+.bordered-titled-border {
+  -fx-content-display: top;
+   /* -fx-border-insets: 15 15 15 15; */
+  /*-fx-background-color: white;*/
+  -fx-border-color: -fx-box-border;
+  -fx-border-width: 2;
+  -fx-border-radius: 4;
+}
+
+.bordered-titled-content {
+  -fx-padding: 26 0 10 0;
+}
+
+.vertical-knob .knob {
+    -fx-background-image: url("/images/knob.png");
+    -fx-background-size: stretch;
+}
+
+/* EOF */
