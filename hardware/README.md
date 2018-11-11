@@ -22,3 +22,5 @@ the instructors.
 ## Comments
 
 Use of analog POTIs or SPI POTIs possible.
+
+![Schaltung](https://github.com/SeDi343/bel5_dms_project/blob/master/hardware/Schaltung.jpg)
