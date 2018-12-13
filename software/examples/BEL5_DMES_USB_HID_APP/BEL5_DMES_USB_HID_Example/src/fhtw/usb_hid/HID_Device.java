@@ -97,7 +97,10 @@ public class HID_Device implements Runnable {
 	}
 
 	public boolean transmitPacket() {
-		String hid_data = new String("SignalGenerator");
+		//String hid_data = new String("SignalGenerator");
+		
+		// hardcoded signal information to test the setup $[signal-type]:[frequency]:[phase]#
+		String hid_data = new String("$sin:2000:0#"); 
 
 		if(hid_device == null) {
 			return false;
