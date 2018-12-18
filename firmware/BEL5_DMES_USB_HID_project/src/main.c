@@ -75,7 +75,7 @@ uint16_t signal_type;
 // uint16_t freq;
 uint32_t freq;
 uint8_t phase;
-double phase_conversion_factor = 6.283185307/4096;
+double phase_conversion_factor = 6.283185307 / 4096;
 
 /***************************************************************+FUNCTIONS*/
 
@@ -272,7 +272,7 @@ int main(void) {
 	init_SPI();
 
 	// init DAC
-	Chip_DAC_Init(LPC_DAC);
+	// Chip_DAC_Init(LPC_DAC);
 
 	while (1) {
 		//__WFI();
